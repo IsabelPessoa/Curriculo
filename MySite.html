@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Janela Modal Exemplo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <button id="button">Abrir Janela</button>
+
+    <div id="modal" class="modal">
+        <div class="modal-content" id="draggable">
+            <div class="window-titlebar" id="modal-header">
+                <div class="window-buttons">
+                    <span class="win-btn close" title="Fechar">x</span>
+                    <span class="win-btn maximize" title="Maximizar"></span>
+                    <span class="win-btn minimize" title="Minimizar"></span>
+                </div>
+                <div class="window-title">Minha Janela</div>
+            </div>
+            <div class="modal-body">
+                <p>Conteúdo personalizado aqui!</p>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="janela.js"></script>
+</body>
+
+</html>
